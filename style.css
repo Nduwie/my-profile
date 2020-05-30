@@ -1,0 +1,133 @@
+/*Colors and fonts*/
+body { 
+	background-color: #FFE18B;
+	color: #333333;
+	font-family: Avenir;
+	line-height: 1.6;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 17px;
+
+
+}
+h1 {
+	font-family: Avenir Next;
+	font-weight: 250;
+
+}
+ h1 {
+ 	color: #333333;
+ 	letter-spacing: 5px;
+ 	font-size: 40px;
+
+ }
+ h2 {
+ 	font-family: Afterglow;
+ 	font-weight: 600;
+ 	
+ }
+ a {
+ 	text-decoration: none;
+ 	color: #FF6700;
+ 	transition: color 0.3s ease;
+ }
+a:hover {
+	color: red;
+
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 822px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+		
+	}
+}
+
+
+@media (max-width: 550px) {
+
+	.container {
+		width: 400px;
+
+	}
+}
+
+
+@media (max-width: 240px) {
+
+	.container {
+		width: 4s0px;
+
+	}
+}
+
+
+
+.card-white {
+	background-color: #FFF0CA;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 167px;
+}
+
+.btn-ornge {
+	background-color: #FCA800;
+	color: white;
+	padding: 13px 20px;
+	border-radius: 29px;
+	font-size: 15px;
+	font-family: Avenir Next;
+	font-weight: 450;
+
+}
+
+.btn-ornge:hover {
+	background-color: red;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 41px;
+	color: #A7A9AC
+}
+
+.list-inline i:hover {
+	color: #FCA800
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	margin-top: 30px;
+
+}
+
+
+
+
+
+
+
